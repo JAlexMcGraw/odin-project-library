@@ -1,0 +1,10 @@
+.bookRow {
+    display: flex;
+    border: black 2px;
+}
+
+.bookTile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
