@@ -9,6 +9,25 @@
 </head>
 <body>
     <h1>My Odin Book Library</h1>
+    <button class="new-book-button" onclick="openNav()">New Book</button>
     <div id="bookShelf"></div>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            <label for="title-input">Title</label>
+            <input type="text" id="text-input-box" name="text-input">
+        </div>
+        <div>
+            <label for="author-input">Author</label>
+            <input type="text" id="author-input-box" name="author-input">
+        </div>
+        <label for="page-count">Page Count</label>
+        <input type="text" id="page-count-input-box" name="page-count-input">
+        <label for="date-published">Date Published</label>
+        <input type="text" id="date-published-input-box" name="date-published-input">
+
+        <button class="submit-btn" onclick="submitBook()">Submit</button>
+      </div>
 </body>
 </html>
